@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5CB64A71C4636890060FA80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CB64A61C4636890060FA80 /* main.m */; };
+		C5CB64AA1C4636890060FA80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CB64A91C4636890060FA80 /* AppDelegate.m */; };
+		C5CB64AD1C4636890060FA80 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CB64AC1C4636890060FA80 /* ViewController.m */; };
+		C5CB64B01C4636890060FA80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5CB64AE1C4636890060FA80 /* Main.storyboard */; };
+		C5CB64B21C4636890060FA80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5CB64B11C4636890060FA80 /* Assets.xcassets */; };
+		C5CB64B51C4636890060FA80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5CB64B31C4636890060FA80 /* LaunchScreen.storyboard */; };
+		C5CB64C01C4636890060FA80 /* iOS_FEImageStrechDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CB64BF1C4636890060FA80 /* iOS_FEImageStrechDemoTests.m */; };
+		C5CB64CB1C4636890060FA80 /* iOS_FEImageStrechDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CB64CA1C4636890060FA80 /* iOS_FEImageStrechDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5CB64BC1C4636890060FA80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5CB649A1C4636890060FA80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5CB64A11C4636890060FA80;
+			remoteInfo = "iOS-FEImageStrechDemo";
+		};
+		C5CB64C71C4636890060FA80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5CB649A1C4636890060FA80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5CB64A11C4636890060FA80;
+			remoteInfo = "iOS-FEImageStrechDemo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C5CB64A21C4636890060FA80 /* iOS-FEImageStrechDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-FEImageStrechDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5CB64A61C4636890060FA80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5CB64A81C4636890060FA80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C5CB64A91C4636890060FA80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C5CB64AB1C4636890060FA80 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C5CB64AC1C4636890060FA80 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C5CB64AF1C4636890060FA80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5CB64B11C4636890060FA80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5CB64B41C4636890060FA80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5CB64B61C4636890060FA80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5CB64BB1C4636890060FA80 /* iOS-FEImageStrechDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-FEImageStrechDemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5CB64BF1C4636890060FA80 /* iOS_FEImageStrechDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_FEImageStrechDemoTests.m; sourceTree = "<group>"; };
+		C5CB64C11C4636890060FA80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5CB64C61C4636890060FA80 /* iOS-FEImageStrechDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-FEImageStrechDemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5CB64CA1C4636890060FA80 /* iOS_FEImageStrechDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_FEImageStrechDemoUITests.m; sourceTree = "<group>"; };
+		C5CB64CC1C4636890060FA80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5CB649F1C4636890060FA80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5CB64B81C4636890060FA80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5CB64C31C4636890060FA80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5CB64991C4636890060FA80 = {
+			isa = PBXGroup;
+			children = (
+				C5CB64A41C4636890060FA80 /* iOS-FEImageStrechDemo */,
+				C5CB64BE1C4636890060FA80 /* iOS-FEImageStrechDemoTests */,
+				C5CB64C91C4636890060FA80 /* iOS-FEImageStrechDemoUITests */,
+				C5CB64A31C4636890060FA80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5CB64A31C4636890060FA80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5CB64A21C4636890060FA80 /* iOS-FEImageStrechDemo.app */,
+				C5CB64BB1C4636890060FA80 /* iOS-FEImageStrechDemoTests.xctest */,
+				C5CB64C61C4636890060FA80 /* iOS-FEImageStrechDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5CB64A41C4636890060FA80 /* iOS-FEImageStrechDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C5CB64A81C4636890060FA80 /* AppDelegate.h */,
+				C5CB64A91C4636890060FA80 /* AppDelegate.m */,
+				C5CB64AB1C4636890060FA80 /* ViewController.h */,
+				C5CB64AC1C4636890060FA80 /* ViewController.m */,
+				C5CB64AE1C4636890060FA80 /* Main.storyboard */,
+				C5CB64B11C4636890060FA80 /* Assets.xcassets */,
+				C5CB64B31C4636890060FA80 /* LaunchScreen.storyboard */,
+				C5CB64B61C4636890060FA80 /* Info.plist */,
+				C5CB64A51C4636890060FA80 /* Supporting Files */,
+			);
+			path = "iOS-FEImageStrechDemo";
+			sourceTree = "<group>";
+		};
+		C5CB64A51C4636890060FA80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5CB64A61C4636890060FA80 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5CB64BE1C4636890060FA80 /* iOS-FEImageStrechDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5CB64BF1C4636890060FA80 /* iOS_FEImageStrechDemoTests.m */,
+				C5CB64C11C4636890060FA80 /* Info.plist */,
+			);
+			path = "iOS-FEImageStrechDemoTests";
+			sourceTree = "<group>";
+		};
+		C5CB64C91C4636890060FA80 /* iOS-FEImageStrechDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C5CB64CA1C4636890060FA80 /* iOS_FEImageStrechDemoUITests.m */,
+				C5CB64CC1C4636890060FA80 /* Info.plist */,
+			);
+			path = "iOS-FEImageStrechDemoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5CB64A11C4636890060FA80 /* iOS-FEImageStrechDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5CB64CF1C4636890060FA80 /* Build configuration list for PBXNativeTarget "iOS-FEImageStrechDemo" */;
+			buildPhases = (
+				C5CB649E1C4636890060FA80 /* Sources */,
+				C5CB649F1C4636890060FA80 /* Frameworks */,
+				C5CB64A01C4636890060FA80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-FEImageStrechDemo";
+			productName = "iOS-FEImageStrechDemo";
+			productReference = C5CB64A21C4636890060FA80 /* iOS-FEImageStrechDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5CB64BA1C4636890060FA80 /* iOS-FEImageStrechDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5CB64D21C4636890060FA80 /* Build configuration list for PBXNativeTarget "iOS-FEImageStrechDemoTests" */;
+			buildPhases = (
+				C5CB64B71C4636890060FA80 /* Sources */,
+				C5CB64B81C4636890060FA80 /* Frameworks */,
+				C5CB64B91C4636890060FA80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5CB64BD1C4636890060FA80 /* PBXTargetDependency */,
+			);
+			name = "iOS-FEImageStrechDemoTests";
+			productName = "iOS-FEImageStrechDemoTests";
+			productReference = C5CB64BB1C4636890060FA80 /* iOS-FEImageStrechDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5CB64C51C4636890060FA80 /* iOS-FEImageStrechDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5CB64D51C4636890060FA80 /* Build configuration list for PBXNativeTarget "iOS-FEImageStrechDemoUITests" */;
+			buildPhases = (
+				C5CB64C21C4636890060FA80 /* Sources */,
+				C5CB64C31C4636890060FA80 /* Frameworks */,
+				C5CB64C41C4636890060FA80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5CB64C81C4636890060FA80 /* PBXTargetDependency */,
+			);
+			name = "iOS-FEImageStrechDemoUITests";
+			productName = "iOS-FEImageStrechDemoUITests";
+			productReference = C5CB64C61C4636890060FA80 /* iOS-FEImageStrechDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5CB649A1C4636890060FA80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = FlyElephant;
+				TargetAttributes = {
+					C5CB64A11C4636890060FA80 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					C5CB64BA1C4636890060FA80 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C5CB64A11C4636890060FA80;
+					};
+					C5CB64C51C4636890060FA80 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C5CB64A11C4636890060FA80;
+					};
+				};
+			};
+			buildConfigurationList = C5CB649D1C4636890060FA80 /* Build configuration list for PBXProject "iOS-FEImageStrechDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5CB64991C4636890060FA80;
+			productRefGroup = C5CB64A31C4636890060FA80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5CB64A11C4636890060FA80 /* iOS-FEImageStrechDemo */,
+				C5CB64BA1C4636890060FA80 /* iOS-FEImageStrechDemoTests */,
+				C5CB64C51C4636890060FA80 /* iOS-FEImageStrechDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5CB64A01C4636890060FA80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5CB64B51C4636890060FA80 /* LaunchScreen.storyboard in Resources */,
+				C5CB64B21C4636890060FA80 /* Assets.xcassets in Resources */,
+				C5CB64B01C4636890060FA80 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5CB64B91C4636890060FA80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5CB64C41C4636890060FA80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5CB649E1C4636890060FA80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5CB64AD1C4636890060FA80 /* ViewController.m in Sources */,
+				C5CB64AA1C4636890060FA80 /* AppDelegate.m in Sources */,
+				C5CB64A71C4636890060FA80 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5CB64B71C4636890060FA80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5CB64C01C4636890060FA80 /* iOS_FEImageStrechDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5CB64C21C4636890060FA80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5CB64CB1C4636890060FA80 /* iOS_FEImageStrechDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5CB64BD1C4636890060FA80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5CB64A11C4636890060FA80 /* iOS-FEImageStrechDemo */;
+			targetProxy = C5CB64BC1C4636890060FA80 /* PBXContainerItemProxy */;
+		};
+		C5CB64C81C4636890060FA80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5CB64A11C4636890060FA80 /* iOS-FEImageStrechDemo */;
+			targetProxy = C5CB64C71C4636890060FA80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5CB64AE1C4636890060FA80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5CB64AF1C4636890060FA80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5CB64B31C4636890060FA80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5CB64B41C4636890060FA80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5CB64CD1C4636890060FA80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C5CB64CE1C4636890060FA80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5CB64D01C4636890060FA80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS-FEImageStrechDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cnblogs.www.iOS-FEImageStrechDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C5CB64D11C4636890060FA80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS-FEImageStrechDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cnblogs.www.iOS-FEImageStrechDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C5CB64D31C4636890060FA80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS-FEImageStrechDemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cnblogs.www.iOS-FEImageStrechDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-FEImageStrechDemo.app/iOS-FEImageStrechDemo";
+			};
+			name = Debug;
+		};
+		C5CB64D41C4636890060FA80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS-FEImageStrechDemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cnblogs.www.iOS-FEImageStrechDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-FEImageStrechDemo.app/iOS-FEImageStrechDemo";
+			};
+			name = Release;
+		};
+		C5CB64D61C4636890060FA80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iOS-FEImageStrechDemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cnblogs.www.iOS-FEImageStrechDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS-FEImageStrechDemo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C5CB64D71C4636890060FA80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iOS-FEImageStrechDemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cnblogs.www.iOS-FEImageStrechDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS-FEImageStrechDemo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5CB649D1C4636890060FA80 /* Build configuration list for PBXProject "iOS-FEImageStrechDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5CB64CD1C4636890060FA80 /* Debug */,
+				C5CB64CE1C4636890060FA80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5CB64CF1C4636890060FA80 /* Build configuration list for PBXNativeTarget "iOS-FEImageStrechDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5CB64D01C4636890060FA80 /* Debug */,
+				C5CB64D11C4636890060FA80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C5CB64D21C4636890060FA80 /* Build configuration list for PBXNativeTarget "iOS-FEImageStrechDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5CB64D31C4636890060FA80 /* Debug */,
+				C5CB64D41C4636890060FA80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C5CB64D51C4636890060FA80 /* Build configuration list for PBXNativeTarget "iOS-FEImageStrechDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5CB64D61C4636890060FA80 /* Debug */,
+				C5CB64D71C4636890060FA80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5CB649A1C4636890060FA80 /* Project object */;
+}
